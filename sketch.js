@@ -141,7 +141,7 @@ function handleGameover(bubbleGroup){
     bubbleGroup.destroy();*/
 
      life=life-1;
-    bubble.destroyEach();
+    bubbleGroup.destroyEach();
     
 
     if (life === 0) {
